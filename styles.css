@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(248, 155, 145);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#game-container {
+  width: 450px;
+  height: 350px;
+  background-color: rgb(248, 155, 145);
+  position: relative;
+}
+#categories h2{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#click-letters h3{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#popup-container{
+    display: none;
+}
+
+
+
+
+#base{
+    border: 2px solid black;
+    bottom: 10px;
+    position: absolute;
+    left: 10px;
+    right: 300px;
+}
+#pole{
+    position: absolute;
+    border: 2px solid black;
+    right: 0;
+    left: -70px;
+    transform: rotate(90deg);
+    width: 300px;
+    top: 188px;
+}
+#top{
+    border: 2px solid black;
+    position: absolute;
+    right: 290px;
+    left: 80px;
+    top: 40px;
+}
+#noose{
+    border: 2px solid black;
+    position: absolute;
+    transform: rotate(90deg);
+    left: 128px;
+    top: 72px;
+    width: 60px;
+}
+#head{
+    border: 2px solid black;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 102px;
+    right: 267px;
+}
+#neck{
+    position: absolute;
+    border: 2px solid black;
+    width: 30px;
+    right: 277px;
+    top: 163px;
+    transform: rotate(90deg);
+}
+#back{
+    position: absolute;
+    border: 2px solid black;
+    width: 30px;
+    right: 277px;
+    top: 194px;
+    transform: rotate(90deg);
+}
+#left-arm{
+    position: absolute;
+    border: 2px solid black;
+    width: 40px;
+    transform: rotate(45deg);
+    right: 287px;
+    top: 164px;
+}
+#right-arm{
+    position: absolute;
+    border: 2px solid black;
+    width: 40px;
+    transform: rotate(-45deg);
+    right: 258px;
+    top: 164px;
+}
+#left-leg{
+    position: absolute;
+    border: 2px solid black;
+    width: 40px;
+    transform: rotate(-56deg);
+    right: 282px;
+    top: 224px;
+}
+#right-leg{
+    position: absolute;
+    border: 2px solid black;
+    width: 40px;
+    transform: rotate(56deg);
+    right: 260px;
+    top: 224px;
+}

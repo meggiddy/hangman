@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Hangman</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Hangman</h1>
+    <div id="categories">
+      <h2>Pick a category</h2>
+      <button id="fruits-category">Fruits</button>
+      <button id="animals-category">Animals</button>
+      <button id="countries-category">Countries</button>
+    </div>
+    <div><h4>Win Count -</h4></div>
+    <div id="click-letters">
+      <h3>Find the word- Enter a letter</h3>
+      <div id="alphabets">
+        <button>A</button>
+        <button>B</button>
+        <button>C</button>
+        <button>D</button>
+        <button>E</button>
+        <button>F</button>
+        <button>G</button>
+        <button>H</button>
+        <button>I</button>
+        <button>J</button>
+        <button>K</button>
+        <button>L</button>
+        <button>M</button>
+        <button>N</button>
+        <button>O</button>
+        <button>P</button>
+        <button>Q</button>
+        <button>R</button>
+        <button>S</button>
+        <button>T</button>
+        <button>U</button>
+        <button>V</button>
+        <button>W</button>
+        <button>X</button>
+        <button>Y</button>
+        <button>Z</button>
+      </div>
+    </div>
+    <div id="popup-container">
+      <h2 id="final-messagge"></h2>
+      <button>Play Again</button>
+    </div>
+    <div id="lives">You have <strong>10</strong> Lives</div>
+    <div id="game-container">
+      <div id="base"></div>
+      <div id="pole"></div>
+      <div id="top"></div>
+      <div id="noose"></div>
+      <div id="head"></div>
+      <div id="neck"></div>
+      <div id="back"></div>
+      <div id="left-arm"></div>
+      <div id="right-arm"></div>
+      <div id="left-leg"></div>
+      <div id="right-leg"></div>
+    </div>
+    <div id="fill-word">---------</div>
+    <button id="hint">Hint</button>
+    <button id="reset-game">Reset Game</button>
+    <script src="script.js" async defer></script>
+  </body>
+</html>
